@@ -12,8 +12,12 @@ Repositório de desenvolvimento do site TI na Medida
  node_modules => .gitignore
 
  Ao clonar o repositório, deve-se:
- 
-    - Pedir ao desenvolvedor as chaves de acesso do MongoDBAtlas e ao email de acesso da plataforma que virá no arquivo 'keys.js' que não foi colocado no repositório por questões de segurança (se mantém no .gitignore)
+
+    - Pedir ao desenvolvedor as chaves de acesso do 
+    MongoDBAtlas e ao email de acesso da plataforma 
+    que virá no arquivo 'keys.js' que não foi colocado 
+    no repositório por questões de segurança (se mantém 
+    no .gitignore)
 
     - Colocar o arquivo 'keys.js' no diretório './backend/src/'
 
