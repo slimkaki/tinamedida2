@@ -31,7 +31,7 @@ const App = () => {
           <Route path='/contact' exact component={Contact}/>
           <Route path='/portal' exact component={Home}/> {/* exact component={Portal} */}
           </Switch>
-          {/* <Footer/> */}
+          <Footer/>
       </div>
     </Router>
 

@@ -4,7 +4,7 @@ import '../cloud.css'
 const Cloud = () => {
     return(
         <div className='cloudSection'>
-            <h1>Cloud/Nuvem</h1>
+            <h1 style={{textAlign: 'left', marginLeft: "3%"}}>Cloud/Nuvem</h1>
             <div class="cloudOptions">
                 <ul>
                     <h2>Introdução</h2>

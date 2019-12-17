@@ -5,9 +5,10 @@ import '../solutions.css'
 const Solutions = () => {
     return(
         <div className='solutionsSection'>
-            <ul>
-          <h2>Virtualização:</h2>
-          <p>Visando aumento do índice de disponibilidade dos seus servidores e rapidez na recuperação de desastres,
+        <h1 style={{textAlign: 'left', marginLeft: "3%"}}>Soluções</h1>
+        <ul>
+            <h2>Virtualização:</h2>
+            <p>Visando aumento do índice de disponibilidade dos seus servidores e rapidez na recuperação de desastres,
             esse é um item essencial a ser implantado.</p>
         </ul>
         <ul>

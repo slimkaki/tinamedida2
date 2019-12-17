@@ -35,7 +35,7 @@ const Contact = () => {
 
     return(
         <div className='contactSection'>
-            <h1 style={{textAlign: "left"}}>Enviar Mensagem</h1>
+            <h1 style={{color: "black", textAlign: "left"}}>Enviar Mensagem</h1>
             <form className='contactForm' onSubmit={salvaDados}>
                 <label>Nome<span class="required">*</span>: </label>
                 <input required id='nome' type='text' classname='textinho' placeholder='Digite aqui seu nome'></input><br/>
