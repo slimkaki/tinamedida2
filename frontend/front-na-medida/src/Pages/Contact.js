@@ -4,7 +4,8 @@ import axios from 'axios';
 
 const Contact = () => {
     const mailContact = (nome, email, assunto, texto) => {
-        axios.post('http://localhost:5000/enviarEmail', {nome: nome, email: email, assunto: assunto, texto: texto});
+        axios.post('http://localhost:5000/routes/enviarEmail', {nome: nome, email: email, assunto: assunto, texto: texto});
+        axios.post('http://localhost:5000/routes/postContact', {nome: nome, email: email, assunto: assunto, texto: texto});
     }
 
     const salvaDados = e => {
@@ -34,12 +35,16 @@ const Contact = () => {
 
     return(
         <div className='contactSection'>
-            <h1>Enviar Mensagem</h1>
+            <h1 style={{textAlign: "left"}}>Enviar Mensagem</h1>
             <form className='contactForm' onSubmit={salvaDados}>
-                <input id='nome' type='text' classname='textinho' placeholder='Digite aqui seu nome'></input><br/>
-                <input id='email' type='text' classname='textinho' placeholder='Digite aqui seu email de contato'></input><br/>
-                <input id='assunto' type='text' classname='textinho' placeholder='Digite aqui o assunto'></input><br/>
-                <input id='texto' type='text' classname='textao' placeholder='Digite aqui sua mensagem'></input><br/>
+                <label>Nome<span class="required">*</span>: </label>
+                <input required id='nome' type='text' classname='textinho' placeholder='Digite aqui seu nome'></input><br/>
+                <label>E-mail<span class="required">*</span>: </label>
+                <input required id='email' type='text' classname='textinho' placeholder='Digite aqui seu email de contato'></input><br/>
+                <label>Assunto<span class="required">*</span>: </label>
+                <input required id='assunto' type='text' classname='textinho' placeholder='Digite aqui o assunto'></input><br/>
+                <label>Mensagem<span class="required">*</span>: </label><br/>
+                <textarea required id='texto' type='text' classname='textao' placeholder='Digite aqui sua mensagem'></textarea><br/>
                 <input type='submit' placeholder='Enviar'></input>
             </form>
         </div>

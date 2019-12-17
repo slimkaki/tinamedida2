@@ -3,14 +3,45 @@
     padding-left: 8%;
     padding-right: 8%;
     padding-bottom: 8%;
-    text-align: center;
+    margin: auto;
+    width: 25%;
+    /* border: 3px solid green; */
+    display: block;
+    float: center;
+    position: relative;
 }
 
-.contactForm .textinho {
-    width: 200px;
-    height: 50px;
+h1 {
+    color: black;
 }
 
-.contactForm .textao {
+.contactForm label {
+    font-size: 20px;
 
+    /* height: auto; */
+}
+
+label {
+    margin-left: 1%;
+    margin-top: 10%;
+    margin-bottom: 100%;
+    text-align: left;
+}
+
+span {
+    color: #cc0000;
+}
+
+input {
+    margin: 1%;
+    font-size: 120%;
+    width: 120%;
+}
+
+
+textarea {
+    margin: 1%;
+    width: 120%;
+    font-size: 120%;
+    height: 150px;
 }

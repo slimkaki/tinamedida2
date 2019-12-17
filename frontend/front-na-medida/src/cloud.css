@@ -6,11 +6,17 @@
     padding-bottom: 8%;
 }
 
+h1 {
+    color: aliceblue;
+}
+
 h2 {
     /* text-align: center; */
     font-size: 200%;
+    color: aliceblue;
 }
 
 p {
+    color: aliceblue;
     font-size: 150%;
 }

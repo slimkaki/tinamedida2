@@ -1,14 +1,11 @@
 const express = require("express")
 const routes = express.Router()
-var cors = require("cors")
+var cors = require('cors')
 routes.use(cors())
-const ContactController = require('./app/controllers/ContactController');
 
-// Exemplo
-// const LoginController = require('./app/controllers/LoginController');
+const ContactController = require('./app/controllers/ContactController.js');
 
-// routes.get('/getPreSignedUrl', AwsController.getPreSignedUrl);
-// routes.get('/listObjects', AwsController.listObjects);
 routes.post('/enviarEmail', ContactController.sendMail);
+routes.post('/postContact', ContactController.postContact);
 
 module.exports = routes;

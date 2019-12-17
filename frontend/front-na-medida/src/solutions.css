@@ -7,10 +7,12 @@
 }
 
 h2 {
+    color: aliceblue;
     /* text-align: center; */
     font-size: 200%;
 }
 
 p {
+    color: aliceblue;
     font-size: 150%;
 }
