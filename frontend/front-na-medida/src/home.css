@@ -1,0 +1,17 @@
+#Home {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 2000px;
+    width: 2000px; */
+}
+
+ .image {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ 

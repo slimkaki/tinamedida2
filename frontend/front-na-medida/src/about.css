@@ -1,0 +1,16 @@
+.aboutSection {
+    background-color:#2495EC;
+    padding-top: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+}
+
+p {
+    font-size: 125%;
+}
