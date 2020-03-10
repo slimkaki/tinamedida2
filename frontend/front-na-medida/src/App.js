@@ -1,20 +1,22 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import History from './components/History'
+import History from './components/history'
 
 // Style
-import './App.css';
+import './app.css';
 
 // Pages
-import Home from './Pages/Home.js';
-import About from './Pages/About.js';
-import Solutions from './Pages/Solutions.js';
-import Cloud from './Pages/Cloud.js';
-import Contact from './Pages/Contact.js';
+import Home from './Pages/home.js';
+import About from './Pages/about.js';
+import Solutions from './Pages/solutions.js';
+import Cloud from './Pages/cloud.js';
+import Contact from './Pages/contact.js';
+import Portal from './Pages/portal.js';
+import Cadastro from './Pages/cadastro.js'
 
 // Components
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 
 
@@ -29,7 +31,8 @@ const App = () => {
           <Route path='/solutions' exact component={Solutions}/>
           <Route path='/cloud' exact component={Cloud}/>
           <Route path='/contact' exact component={Contact}/>
-          <Route path='/portal' exact component={Home}/> {/* exact component={Portal} */}
+          <Route path='/portal' exact component={Portal}/>
+          <Route path='/cadastro' exact component={Cadastro}/>
           </Switch>
           <Footer/>
       </div>

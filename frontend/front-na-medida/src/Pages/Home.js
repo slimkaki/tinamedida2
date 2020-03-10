@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Gallery, GalleryImage} from 'react-gesture-gallery';
-import {images} from './Images.js';
+import {images} from './images.js';
 import '../home.css'
 
 const INITIAL_INDEX = 0;

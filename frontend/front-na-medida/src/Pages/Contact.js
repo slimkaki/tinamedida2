@@ -4,8 +4,8 @@ import axios from 'axios';
 
 const Contact = () => {
     const mailContact = (nome, email, assunto, texto) => {
-        axios.post('http://localhost:5000/routes/enviarEmail', {nome: nome, email: email, assunto: assunto, texto: texto});
-        axios.post('http://localhost:5000/routes/postContact', {nome: nome, email: email, assunto: assunto, texto: texto});
+        axios.post('http://tinamedida.com.br:21206/routes/enviarEmail', {nome: nome, email: email, assunto: assunto, texto: texto});
+        axios.post('http://tinamedida.com.br:21206/routes/postContact', {nome: nome, email: email, assunto: assunto, texto: texto});
     }
 
     const salvaDados = e => {
