@@ -6,13 +6,13 @@ import History from './components/history'
 import './app.css';
 
 // Pages
-import Home from './Pages/home.js';
-import About from './Pages/about.js';
-import Solutions from './Pages/solutions.js';
-import Cloud from './Pages/cloud.js';
-import Contact from './Pages/contact.js';
-import Portal from './Pages/portal.js';
-import Cadastro from './Pages/cadastro.js'
+import Home from './pages/home.js';
+import About from './pages/about.js';
+import Solutions from './pages/solutions.js';
+import Cloud from './pages/cloud.js';
+import Contact from './pages/contact.js';
+import Portal from './pages/portal.js';
+import Cadastro from './pages/cadastro.js'
 
 // Components
 import Navbar from './components/navbar';

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/apps_nodejs/static/css/main.04cf8b67.chunk.css",
+    "main.js": "/apps_nodejs/static/js/main.8a0cd582.chunk.js",
+    "main.js.map": "/apps_nodejs/static/js/main.8a0cd582.chunk.js.map",
+    "runtime-main.js": "/apps_nodejs/static/js/runtime-main.36e7ab9d.js",
+    "runtime-main.js.map": "/apps_nodejs/static/js/runtime-main.36e7ab9d.js.map",
+    "static/css/2.deb05650.chunk.css": "/apps_nodejs/static/css/2.deb05650.chunk.css",
+    "static/js/2.5d861b3c.chunk.js": "/apps_nodejs/static/js/2.5d861b3c.chunk.js",
+    "static/js/2.5d861b3c.chunk.js.map": "/apps_nodejs/static/js/2.5d861b3c.chunk.js.map",
+    "index.html": "/apps_nodejs/index.html",
+    "precache-manifest.718cd4bcf938a5b6e0400e1cb0226ac1.js": "/apps_nodejs/precache-manifest.718cd4bcf938a5b6e0400e1cb0226ac1.js",
+    "service-worker.js": "/apps_nodejs/service-worker.js",
+    "static/css/2.deb05650.chunk.css.map": "/apps_nodejs/static/css/2.deb05650.chunk.css.map",
+    "static/css/main.04cf8b67.chunk.css.map": "/apps_nodejs/static/css/main.04cf8b67.chunk.css.map",
+    "static/js/2.5d861b3c.chunk.js.LICENSE": "/apps_nodejs/static/js/2.5d861b3c.chunk.js.LICENSE",
+    "static/media/logo.jpg": "/apps_nodejs/static/media/logo.5d93dfad.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36e7ab9d.js",
+    "static/css/2.deb05650.chunk.css",
+    "static/js/2.5d861b3c.chunk.js",
+    "static/css/main.04cf8b67.chunk.css",
+    "static/js/main.8a0cd582.chunk.js"
+  ]
+}
